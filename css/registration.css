@@ -1,0 +1,160 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lexend:700");
+
+@font-face {
+    font-family: "GROBOLD-Regular";
+    src: url("https://anima-uploads.s3.amazonaws.com/5c47d2cfd7b7cc000b09566b/GROBOLD.ttf") format("truetype");
+}
+
+body {
+    background-color: #ffd913;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.text-wrapper {
+    margin-left: 0;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #241e02;
+    font-size: 26px;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.heading {
+    margin-left: 0;
+    font-weight: 100;
+    color: #241e02;
+    font-size: 26px;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.sign-up {
+    margin-left: 0;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #241e02;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.text-wrapper-2 {
+
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.overlap-group {
+    position: relative;
+    width: 354px;
+    height: 63px;
+    background-color: #100e01;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.next-wrapper {
+    position: relative;
+    width: 354px;
+    height: 63px;
+    background-color: #ff1841;
+    border-radius: 10px;
+    font-family: "GROBOLD-Regular", Helvetica;
+    color: #f8f5e4;
+}
+
+.next {
+    position: absolute;
+    top: 24px;
+    left: 156px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.group-2 {
+    position: absolute;
+    width: 355px;
+    height: 60px;
+
+
+}
+
+.text-wrapper-3 {
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #794f00;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.text-wrapper-4 {
+    position: absolute;
+
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.text-wrapper-5 {
+
+    /* top: 696px; */
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #a27a06;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
