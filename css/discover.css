@@ -1,0 +1,808 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    margin: 0px;
+    height: 100%;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "GROBOLD-Regular";
+    src: url("https://anima-uploads.s3.amazonaws.com/5c47d2cfd7b7cc000b09566b/GROBOLD.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Medium-Regular";
+    src: url("https://anima-uploads.s3.amazonaws.com/projects/615aaff303bdc59f53af11d0/fonts/roboto-light.ttf") format("truetype");
+}
+
+.discover {
+    background-color: #f8f5e400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.discover .div {
+    background-color: #fffef7;
+    overflow: hidden;
+    width: 414px;
+    height: 1058px;
+    position: relative;
+}
+
+.discover .overlap {
+    position: absolute;
+    width: 420px;
+    height: 227px;
+    top: 704px;
+    left: 22px;
+}
+
+.discover .div-2 {
+    width: 420px;
+    height: 227px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.discover .text-wrapper {
+    left: 1px;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+}
+
+.discover .group {
+    position: absolute;
+    width: 424px;
+    height: 183px;
+    top: 44px;
+    left: 0;
+}
+
+.discover .mask-group {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 0;
+    left: 0;
+}
+
+.discover .img {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 0;
+    left: 144px;
+}
+
+.discover .rectangle {
+    position: absolute;
+    width: 104px;
+    height: 154px;
+    top: 0;
+    left: 288px;
+    object-fit: cover;
+}
+
+.discover .text-wrapper-2 {
+    position: absolute;
+    top: 167px;
+    left: 13px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-3 {
+    position: absolute;
+    top: 167px;
+    left: 172px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-4 {
+    position: absolute;
+    top: 167px;
+    left: 293px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .rectangle-2 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 44px;
+    left: 0;
+    object-fit: cover;
+}
+
+.discover .rectangle-3 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 44px;
+    left: 144px;
+    object-fit: cover;
+}
+
+.discover .rectangle-4 {
+    position: absolute;
+    width: 104px;
+    height: 154px;
+    top: 44px;
+    left: 288px;
+    object-fit: cover;
+}
+
+.discover .text-wrapper-5 {
+    left: 15px;
+    position: absolute;
+    width: 103px;
+    top: 105px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 26.2px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-6 {
+    left: 159px;
+    position: absolute;
+    width: 103px;
+    top: 105px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 26.2px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-7 {
+    left: 303px;
+    position: absolute;
+    width: 103px;
+    top: 105px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 26.2px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .nav-menu {
+    position: absolute;
+    width: 414px;
+    height: 89px;
+    top: 969px;
+    left: 0;
+}
+
+.discover .overlap-group {
+    position: relative;
+    height: 88px;
+    top: 1px;
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/rectangle-8-1.svg);
+    background-size: 100% 100%;
+}
+
+.discover .group-2 {
+    position: relative;
+    width: 345px;
+    height: 43px;
+    top: 25px;
+    left: 38px;
+}
+
+.discover .paper {
+    position: absolute;
+    width: 21px;
+    height: 25px;
+    top: 0;
+    left: 209px;
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/paper.svg);
+    background-size: 100% 100%;
+}
+
+.discover .home {
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    top: 0;
+    left: 2px;
+}
+
+.discover .discovery {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 105px;
+    box-shadow: var(--nav-menu-icon);
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/discovery.svg);
+    background-size: 100% 100%;
+}
+
+.discover .category {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 310px;
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/category.svg);
+    background-size: 100% 100%;
+}
+
+.discover .text-wrapper-8 {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #918163;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-9 {
+    top: 33px;
+    left: 98px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: normal;
+    position: absolute;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-10 {
+    position: absolute;
+    top: 33px;
+    left: 203px;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #918163;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-11 {
+    position: absolute;
+    top: 32px;
+    left: 310px;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #918163;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-12 {
+    top: 31px;
+    left: 20px;
+    color: #240a02;
+    font-size: 28px;
+    text-align: center;
+    line-height: 28px;
+    position: absolute;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.discover .div-wrapper {
+    position: absolute;
+    width: 33px;
+    height: 34px;
+    top: 32px;
+    left: 359px;
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/profile-pic.svg);
+    background-size: 100% 100%;
+}
+
+.discover .text-wrapper-13 {
+    position: absolute;
+    width: 25px;
+    top: 10px;
+    left: 3px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 8.9px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .overlap-2 {
+    position: absolute;
+    width: 420px;
+    height: 227px;
+    top: 443px;
+    left: 21px;
+}
+
+.discover .rectangle-5 {
+    top: 0;
+    position: absolute;
+    width: 105px;
+    height: 154px;
+    left: 288px;
+}
+
+.discover .text-wrapper-14 {
+    position: absolute;
+    top: 167px;
+    left: 23px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .text-wrapper-15 {
+    position: absolute;
+    top: 167px;
+    left: 160px;
+    font-family: "Roboto Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .rectangle-6 {
+    top: 44px;
+    object-fit: cover;
+    position: absolute;
+    width: 105px;
+    height: 154px;
+    left: 288px;
+}
+
+.discover .search-bar {
+    position: absolute;
+    width: 385px;
+    height: 81px;
+    top: 90px;
+    left: 14px;
+}
+
+.discover .overlap-3 {
+    position: relative;
+    width: 374px;
+    height: 80px;
+    left: 5px;
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/rectangle-28.svg);
+    background-size: 100% 100%;
+}
+
+.discover .text-wrapper-16 {
+    position: absolute;
+    width: 185px;
+    top: 29px;
+    left: 59px;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #c27d2b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.discover .iconly-light-outline {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 27px;
+    left: 26px;
+}
+
+.discover .select-your {
+    position: absolute;
+    width: 484px;
+    height: 206px;
+    top: 202px;
+    left: 21px;
+}
+
+.discover .you-might-like {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.discover .text-wrapper-17 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #241f03;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover .access {
+    position: absolute;
+    width: 158px;
+    height: 141px;
+    top: 56px;
+    left: 327px;
+}
+
+.discover .overlap-group-2 {
+    position: relative;
+    width: 124px;
+    height: 142px;
+    top: 3px;
+    left: 5px;
+}
+
+.discover .rectangle-7 {
+    position: absolute;
+    width: 61px;
+    height: 142px;
+    top: 0;
+    left: 0;
+}
+
+.discover .ellipse {
+    width: 33px;
+    height: 33px;
+    top: 73px;
+    left: 28px;
+    background-color: #ffaa6d;
+    border-radius: 16.5px;
+    opacity: 0.3;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .ellipse-2 {
+    width: 14px;
+    height: 14px;
+    top: 56px;
+    left: 24px;
+    background-color: #ffaa6d;
+    border-radius: 7px;
+    opacity: 0.3;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .text-wrapper-18 {
+    position: absolute;
+    width: 81px;
+    top: 43px;
+    left: 43px;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.discover .romance {
+    position: absolute;
+    width: 149px;
+    height: 163px;
+    top: 40px;
+    left: 3px;
+}
+
+.discover .overlap-4 {
+    position: relative;
+    width: 151px;
+    height: 163px;
+}
+
+.discover .overlap-group-wrapper {
+    position: absolute;
+    width: 151px;
+    height: 163px;
+    top: 0;
+    left: 0;
+}
+
+.discover .overlap-group-3 {
+    position: relative;
+    width: 145px;
+    height: 151px;
+    top: 9px;
+    left: 3px;
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/rectangle-23.svg);
+    background-size: 100% 100%;
+}
+
+.discover .overlap-5 {
+    position: absolute;
+    width: 74px;
+    height: 37px;
+    top: 93px;
+    left: 35px;
+}
+
+.discover .overlap-6 {
+    width: 73px;
+    height: 37px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.discover .ellipse-3 {
+    width: 31px;
+    height: 31px;
+    top: 6px;
+    left: 31px;
+    background-color: #ffac0b;
+    border-radius: 15.68px;
+    opacity: 0.5;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .text-wrapper-19 {
+    position: absolute;
+    width: 73px;
+    top: 0;
+    left: 0;
+    text-shadow: 0px 1.9px 2.85px #92460082;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16.2px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16.2px;
+    white-space: nowrap;
+}
+
+.discover .ellipse-4 {
+    width: 9px;
+    height: 9px;
+    top: 29px;
+    left: 66px;
+    background-color: #ffac0b;
+    border-radius: 4.28px;
+    opacity: 0.5;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .ellipse-5 {
+    width: 15px;
+    height: 15px;
+    top: 18px;
+    left: 24px;
+    background-color: #ffac0b;
+    border-radius: 7.6px;
+    opacity: 0.5;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .ellipse-6 {
+    width: 8px;
+    height: 8px;
+    top: 11px;
+    left: 41px;
+    background-color: #ffac0b;
+    border-radius: 3.8px;
+    opacity: 0.5;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .group-3 {
+    position: absolute;
+    width: 66px;
+    height: 68px;
+    top: 35px;
+    left: 30px;
+}
+
+.discover .group-4 {
+    position: absolute;
+    width: 48px;
+    height: 46px;
+    top: 41px;
+    left: 82px;
+}
+
+.discover .morals {
+    position: absolute;
+    width: 153px;
+    height: 154px;
+    top: 52px;
+    left: 162px;
+}
+
+.discover .overlap-7 {
+    position: relative;
+    width: 155px;
+    height: 154px;
+}
+
+.discover .group-5 {
+    position: absolute;
+    width: 155px;
+    height: 154px;
+    top: 0;
+    left: 0;
+}
+
+.discover .overlap-group-4 {
+    position: relative;
+    width: 148px;
+    height: 146px;
+    top: 4px;
+    left: 2px;
+    background-image: url(https://c.animaapp.com/LbNAVTCG/img/rectangle-24.svg);
+    background-size: 100% 100%;
+}
+
+.discover .overlap-8 {
+    position: absolute;
+    width: 82px;
+    height: 42px;
+    top: 82px;
+    left: 48px;
+}
+
+.discover .overlap-9 {
+    width: 82px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.discover .text-wrapper-20 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    text-shadow: 0px 4px 2px #6c0092a1;
+    font-family: "GROBOLD-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 17px;
+    white-space: nowrap;
+}
+
+.discover .ellipse-7 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 0;
+    left: 44px;
+    background-color: #a607de;
+    border-radius: 19px;
+    mix-blend-mode: screen;
+    opacity: 0.5;
+}
+
+.discover .ellipse-8 {
+    width: 16px;
+    height: 16px;
+    top: 26px;
+    left: 28px;
+    background-color: #a607de;
+    border-radius: 8px;
+    opacity: 0.5;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .ellipse-9 {
+    width: 11px;
+    height: 11px;
+    top: 29px;
+    left: 13px;
+    background-color: #a607de;
+    border-radius: 5.5px;
+    opacity: 0.5;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .ellipse-10 {
+    width: 5px;
+    height: 5px;
+    top: 20px;
+    left: 24px;
+    background-color: #a607de;
+    border-radius: 2.5px;
+    opacity: 0.5;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.discover .image-traced {
+    position: absolute;
+    width: 76px;
+    height: 66px;
+    top: 27px;
+    left: 43px;
+}
+
+:root {
+    --text-shadow: 0px 2px 6px 0px rgba(201, 120, 0, 0.71);
+    --buttun-text-shadow: 0px 1.781818151473999px 1.781818151473999px 0px rgba(115, 109, 107, 0.53);
+    --nav-menu-icon: ;
+    --search-image-shadow: 2px 3px 6px 0px rgba(190, 187, 166, 0.61);
+    --icon-inner-shadow: 0px 2px 4px 0px rgba(161, 11, 69, 0.72);
+    --screenshot-shadow: 33px 40px 33px 0px rgba(0, 0, 0, 0.25);
+}
