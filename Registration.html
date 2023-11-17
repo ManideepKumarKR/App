@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instant Katha</title>
+    <link rel="stylesheet" href="css/registration.css" />
+  </head>
+  <body>
+    <!-- form section -->
+    <section class="login">
+      <form action="#">
+        <div class="main">
+          <img
+            src="images/app layout-10.png"
+            alt="logo"
+            width="150px"
+            style="margin-top: 30px; margin-left: 100px"
+          />
+          <div class="text-wrapper">Welcome Kid!</div>
+          <br />
+          <!-- <h2 class="heading">A New World Of Stories.. !</h2> -->
+          <br />
+          <br />
+          <!-- <div class="sign-up" style="align-items: center"></div> -->
+          <br />
+          <label class="text-wrapper-2" for="name">Your Kids name</label><br />
+          <input
+            class="overlap-group"
+            type="name"
+            id="name"
+            name="name"
+            pattern="^[A-Za-z\s\-']+$"
+            required
+          />
+          <br /><br />
+          <label class="text-wrapper-2" for="age">Your kids age</label><br />
+          <input
+            class="overlap-group"
+            type="age"
+            id="age"
+            name="age"
+            required
+          />
+          <br />
+          <br />
+
+          <label class="text-wrapper-2" for="phoneNumber">Phone Number</label
+          ><br />
+          <input
+            class="overlap-group"
+            type="phoneNumber"
+            id="phoneNumber"
+            name="phoneNumber"
+            pattern="[6-9][0-9]{9}"
+            title="Please enter a valid 10-digit Indian mobile number starting with 6, 7, 8, or 9"
+            required
+          />
+          <br />
+          <br />
+          <label class="text-wrapper-2" for="password">Password</label><br />
+          <input
+            class="overlap-group"
+            type="password"
+            id="password"
+            name="password"
+            pattern="^(?=\S{8,}$).*$"
+            title="Enter a valid password (at least 8 characters, no spaces)"
+            required
+          />
+          <br /><br />
+          <div class="overlap-group-wrapper">
+            <input
+              class="next-wrapper"
+              class="next"
+              type="submit"
+              value="Register"
+            />
+          </div>
+          <br />
+          <div class="text-wrapper-3">Have an account?</div>
+          <br />
+          <a href="login.html" class="text-wrapper-4">Login</a>
+        </div>
+      </form>
+      <br /><br />
+      <div class="text-wrapper-5"><a href="new.html">Skip</a></div>
+    </section>
+  </body>
+</html>
